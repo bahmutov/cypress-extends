@@ -1,4 +1,4 @@
-# @bahmutov/cypress-extends [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url]
+# @bahmutov/cypress-extends [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] ![cypress version](https://img.shields.io/badge/cypress-4.7.0-brightgreen)
 > Cypress plugin that adds "extends" support to the configuration file
 
 ## Use
@@ -56,3 +56,5 @@ Read [Cypress tips and tricks](https://glebbahmutov.com/blog/cypress-tips-and-tr
 [ci url]: https://github.com/bahmutov/cypress-extends/actions
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
 [renovate-app]: https://renovateapp.com/
+[badges image]: https://github.com/bahmutov/cypress-extends/workflows/badges/badge.svg?branch=master
+[badges url]: https://github.com/bahmutov/cypress-extends/actions
