@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "schedule": [
+    "every weekend"
+  ],
+  "updateNotScheduled": false,
+  "timezone": "America/New_York",
+  "masterIssue": true,
+  "enabledManagers": [
+    "npm"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "excludePackagePatterns": [
+        "cypress"
+      ],
+      "enabled": false
+    }
+  ]
+}
