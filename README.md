@@ -48,5 +48,9 @@ DEBUG=@bahmutov/cypress-extends npx cypress run
 DEBUG=@bahmutov/cypress-extends npx cypress open
 ```
 
+## More info
+
+Read [Cypress tips and tricks](https://glebbahmutov.com/blog/cypress-tips-and-tricks/) and watch [Cypress tips](https://www.youtube.com/playlist?list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI) videos.
+
 [ci image]: https://github.com/bahmutov/cypress-extends/workflows/ci/badge.svg?branch=master
 [ci url]: https://github.com/bahmutov/cypress-extends/actions
