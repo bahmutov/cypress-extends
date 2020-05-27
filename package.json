@@ -1,0 +1,32 @@
+{
+  "name": "@bahmutov/cypress-extends",
+  "version": "1.0.0",
+  "description": "Cypress plugin that adds \"extends\" support to the configuration file",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-extends.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-plugin"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-extends/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-extends#readme",
+  "devDependencies": {
+    "cypress": "4.7.0"
+  },
+  "dependencies": {
+    "deepmerge": "4.2.2"
+  }
+}
