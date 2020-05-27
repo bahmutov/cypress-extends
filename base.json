@@ -1,0 +1,5 @@
+{
+  "fixturesFolder": false,
+  "supportFile": false,
+  "$schema": "https://on.cypress.io/cypress.schema.json"
+}

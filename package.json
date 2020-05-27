@@ -27,6 +27,11 @@
     "cypress": "4.7.0"
   },
   "dependencies": {
+    "debug": "4.1.1",
     "deepmerge": "4.2.2"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
