@@ -10,7 +10,7 @@ jobs:
       - name: Cypress run 🧪
         uses: cypress-io/github-action@v1
         env:
-          DEBUG: @bahmutov/cypress-extends
+          DEBUG: '@bahmutov/cypress-extends'
 
       - name: Semantic Release 🚀
         uses: cycjimmy/semantic-release-action@v2
