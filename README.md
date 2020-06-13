@@ -1,4 +1,4 @@
-# @bahmutov/cypress-extends [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] ![cypress version](https://img.shields.io/badge/cypress-4.7.0-brightgreen)
+# @bahmutov/cypress-extends [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] ![cypress version](https://img.shields.io/badge/cypress-4.8.0-brightgreen)
 > Cypress plugin that adds "extends" support to the configuration file
 
 ## Use
