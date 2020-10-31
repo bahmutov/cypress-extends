@@ -1,5 +1,5 @@
 # @bahmutov/cypress-extends [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] ![cypress version](https://img.shields.io/badge/cypress-5.5.0-brightgreen)
-> Cypress plugin that adds "extends" support to the configuration file
+> Cypress plugin that adds "extends" support to the configuration file. This allows the config files to remain DRY and avoid duplicating data, but still have multiple files for different scenarios. The idea was proposed in https://github.com/cypress-io/cypress/issues/5674
 
 ## Use
 
