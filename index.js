@@ -6,7 +6,12 @@ function loadConfig(filename) {
   debug('reading config file %s', filename)
   const configJson = require(filename)
   if (configJson.extends) {
-    const baseConfigFilename = require.resolve(configJson.extends)
+    let baseConfigFilename;
+    if (configJson.extends.startsWith('./') || configJson.extends.startsWith('../')) {
+      baseConfigFilename = path.join(path.dirname(filename), configJson.extends)
+    } else {
+      baseConfigFilename = require.resolve(configJson.extends)
+    }
     debug('config file extends %s', baseConfigFilename)
     const baseConfig = loadConfig(baseConfigFilename)
     debug('merging %s with %s', baseConfigFilename, filename)
