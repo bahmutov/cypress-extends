@@ -7,7 +7,7 @@ function loadConfig(filename) {
   const configJson = require(filename)
   if (configJson.extends) {
     let baseConfigFilename;
-    if (configJson.extends.startsWith('./') || configJson.extends.startsWith('../')) {
+    if (configJson.extends.startsWith('.')) {
       baseConfigFilename = path.join(path.dirname(filename), configJson.extends)
     } else {
       baseConfigFilename = require.resolve(configJson.extends)
