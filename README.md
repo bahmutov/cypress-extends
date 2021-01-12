@@ -48,6 +48,33 @@ DEBUG=@bahmutov/cypress-extends npx cypress run
 DEBUG=@bahmutov/cypress-extends npx cypress open
 ```
 
+## Common problems
+
+<details>
+<summary>baseUrl is not set</summary>
+Make sure you do not accidentally place the <code>baseUrl</code> or another config variable into the <code>env</code> block. The following is <i>incorrect</i> and won't work:
+
+```
+{
+  "env": {
+    "baseUrl": "http://localhost:3030,
+    "FOO": "bar"
+  }
+}
+```
+
+Instead place the `baseUrl` at the top level, outside the `env` object.
+
+```
+{
+  "baseUrl": "http://localhost:3030
+  "env": {
+    "FOO": "bar"
+  }
+}
+```
+</details>
+
 ## More info
 
 Read [Cypress tips and tricks](https://glebbahmutov.com/blog/cypress-tips-and-tricks/) and watch [Cypress tips](https://www.youtube.com/playlist?list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI) videos.
