@@ -58,7 +58,7 @@ Make sure you do not accidentally place the <code>baseUrl</code> or another conf
 ```
 {
   "env": {
-    "baseUrl": "http://localhost:3030,
+    "baseUrl": "http://localhost:3030",
     "FOO": "bar"
   }
 }
@@ -68,7 +68,7 @@ Instead place the `baseUrl` at the top level, outside the `env` object.
 
 ```
 {
-  "baseUrl": "http://localhost:3030
+  "baseUrl": "http://localhost:3030",
   "env": {
     "FOO": "bar"
   }
