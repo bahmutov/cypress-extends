@@ -18,7 +18,8 @@
         "*"
       ],
       "excludePackagePatterns": [
-        "cypress"
+        "cypress",
+        "semantic-release"
       ],
       "enabled": false
     }
