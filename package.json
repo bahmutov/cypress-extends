@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-extends#readme",
   "devDependencies": {
-    "cypress": "7.1.0",
+    "cypress": "7.2.0",
     "semantic-release": "17.4.2"
   },
   "dependencies": {
