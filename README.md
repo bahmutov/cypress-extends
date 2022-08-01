@@ -41,7 +41,7 @@ Start using `extends` syntax in your Cypress configuration file
 
 ## Debugging
 
-Run Cypress with environment variable
+Run Cypress with an environment variable
 
 ```
 DEBUG=@bahmutov/cypress-extends npx cypress run
